@@ -48,9 +48,7 @@ export function Skills() {
         <Separator orientation="vertical" />
         <div>TypeScript</div>
         <Separator orientation="vertical" />
-        <div>GoLang</div>
-        <Separator orientation="vertical" />
-        <div>Python</div>
+        <p>GoLang</p>
       </div>
     </div>
   );

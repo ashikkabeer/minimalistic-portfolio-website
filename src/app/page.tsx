@@ -7,13 +7,12 @@ import { Skills } from "@/components/skill";
 import Link from "next/link";
 import ModeToggle from "@/components/darkmode";
 export default function Home() {
-  
   return (
-      <div className="light:light-bg ">
+    <div className="light:light-bg ">
       <NextUIProvider>
         <div className="center flex justify-center">
-          <div className={"w-screen  md:w-2/5 p-5 pt-10"}>
-            <div className="header flex justify-between">
+          <div className={"w-screen md:w-screen xl:w-2/5 p-5 pt-10"}>
+            <div className="header items-center flex justify-between">
               <div className="my-11 flex overscroll-x-contain">
                 <Image
                   className="rounded-full"
@@ -27,7 +26,7 @@ export default function Home() {
                   <p className="text-sm">Software Engineer</p>
                 </div>
               </div>
-              <div className="pt-6">
+              <div className="">
                 <ModeToggle />
               </div>
             </div>
@@ -39,8 +38,8 @@ export default function Home() {
                 are not only functional but also enhance the overall user
                 experience.<br></br>
                 <br></br>Fueled by a passion for learning, I`m always exploring
-                new skills, with a current interest in TypeScript and Rust. Just
-                as I experiment with native apps using Swift, I enjoy pushing
+                new skills, with a current interest in TypeScript and NestJS. Just
+                as I experiment GoLang, I enjoy pushing
                 the boundaries to bring innovation to the core of backend
                 development. Join me in constructing the solid foundations that
                 drive delightful web functionalities.
@@ -48,20 +47,25 @@ export default function Home() {
             </div>
 
             <div className="links flex col-span-2 flex-wrap my-10">
-              <Link href={"https://www.twitter.com"}>
+              <Link href={"https://www.twitter.com/ashikkabeer"}>
                 <div className="flex whitespace-nowrap pr-4 underline flex-row">
                   <ArrowUpRight /> follow me on twitter
                 </div>
               </Link>
-              <Link href={"https://www.twitter.com"}>
+              <Link href={"https://www.github.com/ashikkabeer"}>
                 {" "}
                 <div className="flex whitespace-nowrap  pr-4 underline flex-row">
                   <ArrowUpRight /> collaborate on github
                 </div>
               </Link>
-              <Link href={"https://www.twitter.com"}>
+              <Link href={"https://www.linkedin.com/in/ashik-kabeer"}>
                 <div className="flex whitespace-nowrap  pr-4 underline flex-row">
                   <ArrowUpRight /> connect on linkedIn
+                </div>
+              </Link>
+              <Link href={"https://ashikkabeer.hashnode.dev/"}>
+                <div className="flex whitespace-nowrap  pr-4 underline flex-row">
+                  <ArrowUpRight /> read my writings
                 </div>
               </Link>
             </div>
@@ -76,8 +80,6 @@ export default function Home() {
           </div>
         </div>
       </NextUIProvider>
-      </div>
-   
-    
+    </div>
   );
 }
