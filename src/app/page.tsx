@@ -31,18 +31,18 @@ export default function Home() {
               </div>
             </div>
             <div className="flex my-5 justify-center description text-md">
-              <p>
+              <p className="">
                 Building the backbone of web experiences is my forte. I focus on
                 creating robust and efficient software that seamlessly powers
                 the digital realm. My goal is to craft backend solutions that
                 are not only functional but also enhance the overall user
                 experience.<br></br>
                 <br></br>Fueled by a passion for learning, I`m always exploring
-                new skills, with a current interest in TypeScript and NestJS. Just
-                as I experiment GoLang, I enjoy pushing
+                new skills, with a current interest in <span className="bg-sky-600 px-2 text-white">TypeScript</span>  and <span className="bg-purple-600 text-white px-2">NestJS</span>. Just
+                as I experiment <span className="bg-teal-500 px-2 text-white">GoLang</span>, I enjoy pushing
                 the boundaries to bring innovation to the core of backend
                 development. Join me in constructing the solid foundations that
-                drive delightful web functionalities.
+                 drive delightful web functionalities.
               </p>
             </div>
 

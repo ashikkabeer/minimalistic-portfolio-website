@@ -46,7 +46,7 @@ export function Skills() {
         <Separator orientation="vertical" />
         <div>Java</div>
         <Separator orientation="vertical" />
-        <div>TypeScript</div>
+        <div className="dark:bg-[#007acc] light:text-sky-600">Typescript</div>
         <Separator orientation="vertical" />
         <p>GoLang</p>
       </div>

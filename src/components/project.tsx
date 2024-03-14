@@ -28,7 +28,7 @@ export default function Projects() {
       </AccordionItem>
       <AccordionItem
         key="2"
-        aria-label="project1"
+        aria-label="project2"
         subtitle="ExpressJS, MongoDB, Google Cloud"
         title="Wave: Social Media Application"
       >
